@@ -39,7 +39,7 @@ mod tests {
     for i in 0..height {
       m.push(Vec::new());
 
-      for j in 0..width {
+      for _j in 0..width {
         m[i].push(i);
       }
     }

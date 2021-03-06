@@ -77,9 +77,17 @@ mod tests {
     height.push(1);
     height.push(2);
 
-    height1.push(10000);
+    height1.push(1);
+    height1.push(2);
+    height1.push(3);
+    height1.push(4);
+    height1.push(3);
+    height1.push(4);
+    height1.push(3);
+    height1.push(2);
+    height1.push(1);
 
     assert_eq!(Solution::trap(height), 6);
-    assert_eq!(Solution::trap(height1), 0);
+    assert_eq!(Solution::trap(height1), 1);
   }
 }
